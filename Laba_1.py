@@ -34,7 +34,6 @@ def top_item(rows: list[dict]) -> Optional[dict]:
 
 #============ Проверка работы функций ===========
 
-
 data = """date,item,quantity,price
 2026-09-01,Apple,10,5.5
 2026-09-02,Banana,20,2.0
