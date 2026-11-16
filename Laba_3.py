@@ -2,7 +2,6 @@ from dataclasses import dataclass  # Создаёт класс для хране
 from enum import Enum  # Задаёт набор именованных вариантов.
 from typing import Generic, TypeVar, Union  # Параметры типов и их объединение.
 
-
 # Уровень 1. Один из трёх вариантов состояния.
 class LoadState(Enum):
     LOADING = "loading"
