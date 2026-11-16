@@ -1,7 +1,6 @@
 import re  # Поиск слов по шаблону.
 from typing import Optional  # Тип результата допускает None.
 
-
 # Уровень 1. Разбиваем текст на слова.
 # Чистая: результат зависит только от text, создаётся новый список.
 def split_words(text: str) -> list[str]:
